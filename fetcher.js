@@ -33,8 +33,3 @@ request(url, (error, response, body) => {
   })
 });
 
-
-// does fs.writeFile always create a new file if the file does not already exist 
-// when does the new file get created?
-// if the fs.writeFile fails, does anything get written to the filePath?
-// what does the response parameter do?
